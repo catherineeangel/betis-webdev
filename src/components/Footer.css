@@ -19,9 +19,14 @@
     margin: 30px;
     min-width: 300px;
 }
+a:hover {
+    cursor: pointer;
+}
 .title{
     font-weight: 600;
     padding: 20px 0px;
+    top: 35%;
+    position: absolute;
 }
 .insta{
     margin-top: 10px;
@@ -33,9 +38,18 @@
 }
 .email-logo, .location-logo{
     margin-right: 20px;
+    width: 40px;
+    position: relative;
+}
+.email-logo{
+    top: -35px;
+}
+.location-logo{
+    top: -10px;
 }
 .description{
     color: #8A8A8A;
+    margin-left: 60px;
 }
 .daun-kanan{
     position: absolute;

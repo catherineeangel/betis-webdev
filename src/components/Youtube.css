@@ -1,13 +1,13 @@
 .youtube{
-    width: 100%;
-    height: 600px;
+    height: 700px;
     text-align: center;
     color: #5B6A00;
     overflow: hidden;
 }
 .sponsor{
-    margin: 20px;
+    margin: 50px;
     padding: 30px;
+    font-size: 36px;
 }
 .video-youtube{
     position: relative;

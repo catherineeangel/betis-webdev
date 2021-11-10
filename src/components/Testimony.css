@@ -1,24 +1,17 @@
-.testimonies{
-    width: 100%;
-    display: flex;
-    justify-content: space-around ;
-    height: 700px;
-    align-items: center;
-    background-color: #e5e5e5;
-}
 .testimony-container{
     width: 100%;
     margin: 70px;
-    min-width: 250px;
-    max-width: 300px;
-    height: 280px;
+    min-width: 350px;
+    max-width: 350px;
+    height: 370px;
     background-color: #ffffff;
     margin: 20px;
     padding: 20px;
     color: #7C8E0E;
 }
 .user {
-    width: 60px;
+    width: 82px;
+    margin-top: 10px;
 }
 /* bikin jadi atas-bawah */
 .name, .desc{
@@ -27,16 +20,16 @@
 .name {
     padding: 5px;
     line-height: 27px;
-    margin: 10px 5px;
+    margin: 20px 10px 10px 20px;
     position: absolute;
     font-weight: 600;
 }
 .desc{
     padding: 5px;
     line-height: 27px;
-    margin: 10px;
+    margin: 50px 10px 10px 20px;
     position: absolute;
-    margin-top: 40px;
+
 }
 .testi {
     margin-top: 30px;
