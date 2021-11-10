@@ -1,0 +1,91 @@
+.header{
+    width: 100%;
+    height: 700px;
+    width: 100%;
+    background-color: #f3dcc9;
+}
+.header-container{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.header-items{
+    height: 600px;
+}
+.center-items{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    min-width: 600px;
+}
+.tagline{
+    position: relative;
+    color: #D53D40;
+    margin-top: 0;
+}
+.betis{
+    color: #743A15;
+}
+.login2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #743A15;
+    height: 48px;
+    width: 136px;
+    border-radius: 3px;
+}
+.header-bottom{
+    background-color: #513320;
+    height: 100px;
+}
+.orang-duduk-container,
+.petunjuk-container{
+    margin: 0;
+    padding: 0;
+}
+.orang-duduk{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    z-index: 1;
+}
+.grass1{
+    position: absolute;
+    bottom: 80px;
+    left: 15px;
+
+}
+.grass2{
+    position: absolute;
+    bottom: 95px;
+    left: 300px;
+
+}
+.petunjuk{
+    position: absolute;
+    bottom: 92px;
+    right: 50px;
+}
+.batu1{
+    position: absolute;
+    right: 20px;
+    bottom: 90px;
+    height: 50px;
+    z-index: 1;
+}
+.batu2{
+    position: absolute;
+    right: 100px;
+    bottom: 90px;
+}
+.daun{
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+}
