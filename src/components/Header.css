@@ -1,15 +1,17 @@
 .header{
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #f3dcc9;
+    min-width: 750px;
 }
 .header-container{
     display: inline-block;
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 .header-items{
-    height: 650px;
+    height: 700px;
 }
 .center-items{
     position: absolute;
@@ -45,7 +47,7 @@
 }
 .header-bottom{
     background-color: #513320;
-    height: 120px;
+    height: 100px;
 }
 .orang-duduk-container,
 .petunjuk-container{
@@ -53,42 +55,43 @@
     padding: 0;
 }
 .orang-duduk{
-    position: absolute;
-    bottom: 0;
-    left: 50px;
+    position: relative;
+    top: 320px;
+    right: 450px;
     z-index: 1;
 }
 .grass1{
-    position: absolute;
-    bottom: 80px;
-    left: 15px;
+    position: relative;
+    top: 220px;
+    right: 800px;
 
 }
 .grass2{
-    position: absolute;
-    bottom: 95px;
-    left: 300px;
+    position: relative;
+    top: 230px;
+    right: 600px;
 
 }
 .petunjuk{
-    position: absolute;
-    bottom: 92px;
-    right: 50px;
+    position: relative;
+    bottom: 180px;
+    left: 580px;
+    height: 400px;
 }
 .batu1{
-    position: absolute;
-    right: 20px;
-    bottom: 90px;
+    position: relative;
+    left: 600px;
+    bottom: 178px;
     height: 50px;
     z-index: 1;
 }
 .batu2{
-    position: absolute;
-    right: 100px;
-    bottom: 90px;
+    position: relative;
+    left: 480px;
+    bottom: 180px;
 }
 .daun{
-    position: absolute;
-    right: 40px;
-    bottom: 80px;
+    position: relative;
+    left: 425px;
+    bottom: 160px;
 }
