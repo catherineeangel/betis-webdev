@@ -25,11 +25,13 @@
     font-family: 'Kanit', sans-serif;
 }
 .tagline{
+    font-size: 44px;
     position: relative;
     color: #D53D40;
     margin-top: 0;
 }
 .betis{
+    font-size: 44px;
     color: #743A15;
     margin: 20px;
 }
